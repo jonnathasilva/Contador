@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <section id="section-01">
+      <h1 class="titulo">Contador</h1>
+      <p class="info">Informe uma data</p>
+      <form name="form_main">
+        <input
+          type="date"
+          name="date_end"
+          id="date"
+          onblur="resetCountdown()"
+        />
+      </form>
+      <button id="bnt" class="bnt">Iniciar contagem</button>
+    </section>
+    <section id="section-02">
+      <div class="top">
+        <h1>Contador</h1>
+        <button id="volta">Reiniciar</button>
+      </div>
+      <h2 class="h2">Faltam</h2>
+      <ul>
+        <li>
+          <p id="days"></p>
+          Dias
+        </li>
+        <li>
+          <p id="hours"></p>
+          Horas
+        </li>
+        <li>
+          <p id="minutes"></p>
+          Minutos
+        </li>
+        <li>
+          <p id="seconds"></p>
+          Segundos
+        </li>
+      </ul>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
