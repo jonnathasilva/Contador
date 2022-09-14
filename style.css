@@ -54,18 +54,19 @@ input {
   cursor: pointer;
 }
 
-/* ====================================section-01==================================== */
-
 #section-02 {
   max-width: 1300px;
   margin: auto;
   padding: 30px 0;
   display: none;
+  height: 100vh;
+  flex-direction: column;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
 .top h1 {
@@ -84,76 +85,43 @@ input {
 }
 
 .h2 {
-  font-size: 100px;
+  font-size: 10vw;
   text-align: center;
+  text-transform: uppercase;
   color: #191a18;
-  margin: 20px 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 ul {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+  list-style: none;
 }
 
-li {
-  display: inline-block;
-  font-size: 40px;
+span {
   color: #21eb00;
-  margin: 0 40px;
+  font-size: 3vw;
 }
 
 li p {
   list-style-type: none;
-  font-size: 100px;
-}
-
-@media (max-width: 1100px) {
-  li {
-    font-size: x-large;
-    margin: 0 20px;
-  }
-  li p {
-    font-size: xxx-large;
-  }
+  font-size: 10vw;
 }
 
 @media (max-width: 600px) {
-  li {
-    font-size: medium;
-    margin: 0 10px;
-  }
-  li p {
-    font-size: xx-large;
-  }
-}
-
-@media (max-width: 420px) {
-  li {
-    margin: 0 5px;
-  }
-}
-
-@media (max-width: 379px) {
-  li p {
-    font-size: x-large;
+  .h2 {
+    font-size: 20vw;
   }
 }
 
 @media (max-width: 349px) {
-  .h2 {
-    font-size: xxx-large;
-  }
-  li {
-    font-size: xx-small;
-    margin: 0 6px;
-  }
-
-  li p {
-    font-size: small;
-  }
-
-  .top h1 {
-    font-size: x-large;
-  }
   .top button {
     font-size: revert;
   }
