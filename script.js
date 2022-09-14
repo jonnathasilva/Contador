@@ -44,6 +44,8 @@ bnt.addEventListener("click", () => {
   if (date_end > `${YEAR}-${MONTH}-${DAY}` && date_end !== undefined) {
     section.style.display = "none";
     Section.style.display = "flex";
+  } else {
+    alert("uma data que não tenha passada tem que ser selecionada!");
   }
 });
 
