@@ -29,16 +29,16 @@ git clone https://github.com/jonnathasilva/API-GITHUB.git
 
 > com o projeto já aberto no seu editor de codigo faça os seguinte passo.
 
-```json
- 1. Se sua máquina tive extensão "Live Server"
- 2. Clique com o botão direito do mouse no arquivo "html"
- 3. Procure pela a opção open with "Live Server" e clique
+```
+ 1. Se sua máquina tive extensão Live Server
+ 2. Clique com o botão direito do mouse no arquivo html
+ 3. Procure pela a opção open with Live Server e clique
 ```
 
 <p align="center" >OU</p>
 
-```json
-1. Puxe o arquivo "html" para o navegador
+```
+1. Puxe o arquivo html para o navegador
 ```
 
 ## ​🖥️​ Tecnologias utilizadas
